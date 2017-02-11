@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/content"
+    tools:context="com.example.android.whowantstobeamillionaire.MainActivity"
+    tools:ignore="missingPrefix">
+
+    <ImageView style="@style/bgImage"/>
+
+    <LinearLayout android:id="@+id/formContainer" style="@style/formLayout">
+        <EditText style="@style/EditTextLayout" android:id="@+id/playerNameEditText"/>
+        <Button style="@style/start" android:onClick="startGame" android:id="@+id/startButton"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/container" style="@style/container" android:visibility="gone">
+
+        <TextView android:id="@+id/questionTextView" style="@style/questionText"
+            android:text="TEST"/>
+        <LinearLayout style="@style/answerContainer"
+            android:id="@+id/answersContainer">
+            <LinearLayout style="@style/answerRow">
+                <CheckBox android:id="@+id/option1"
+                    android:text="Option1"
+                    style="@style/option"
+                    app:buttonTint="@color/white" />
+                <CheckBox android:id="@+id/option2"
+                    android:text="Option2"
+                    style="@style/option"
+                    app:buttonTint="@color/white" />
+            </LinearLayout>
+            <LinearLayout style="@style/answerRow">
+                <CheckBox
+                    android:id="@+id/option3"
+                    android:text="Option3"
+                    style="@style/option"
+                    app:buttonTint="@color/white" />
+                <CheckBox
+                    android:id="@+id/option4"
+                    android:text="Option4"
+                    style="@style/option"
+                    app:buttonTint="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:onClick="submitAnswer"
+            android:text="@string/submit"
+            style="@style/submit"/>
+
+    </LinearLayout>
+
+    <TextView style="@style/playerNameText"
+        android:visibility="gone"
+        android:id="@+id/playerNameTextView"/>
+
+    <TextView style="@style/scoreText"
+        android:visibility="gone"
+        android:id="@+id/scoreTextView"/>
+
+    <Button style="@style/restart"
+        android:visibility="gone"
+        android:onClick="restartGame"
+        android:id="@+id/restartButton"/>
+    <Button style="@style/share"
+        android:visibility="gone"
+        android:onClick="shareScore"
+        android:id="@+id/shareButton"/>
+</RelativeLayout>

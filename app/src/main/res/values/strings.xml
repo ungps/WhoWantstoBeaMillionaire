@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Who Wants to Be a Millionaire?</string>
+    <string name="submit">SUBMIT</string>
+    <string name="name">Enter your name</string>
+    <string name="start">START</string>
+    <string name="restart">REPLAY</string>
+    <string name="share">SHARE</string>
+
+    <string name="question1">What color is cobalt?</string>
+    <string name="option11">Blue</string>
+    <string name="option12">Red</string>
+    <string name="option13">Yellow</string>
+    <string name="option14">Green</string>
+
+    <string name="question2">What is the organ that is affected when one is suffering from hepatitis?</string>
+    <string name="option21">Liver</string>
+    <string name="option22">Heart</string>
+    <string name="option23">Skin</string>
+    <string name="option24">Kidney</string>
+
+    <string name="question3">Which planet is nearest the sun?</string>
+    <string name="option31">Mercury</string>
+    <string name="option32">Moon</string>
+    <string name="option33">Terra</string>
+    <string name="option34">Saturn</string>
+
+    <string name="question4">What is the lightest existing metal?</string>
+    <string name="option41">Aluminium</string>
+    <string name="option42">Copper</string>
+    <string name="option43">Steel</string>
+    <string name="option44">Titanium</string>
+
+    <string name="question5">In which year did Maradona score a goal with his hand?	</string>
+    <string name="option51">1986</string>
+    <string name="option52">1955</string>
+    <string name="option53">1985</string>
+    <string name="option54">2001</string>
+
+    <string name="question6">How many players has a hockey team got on the ice?</string>
+    <string name="option61">6</string>
+    <string name="option62">4</string>
+    <string name="option63">5</string>
+    <string name="option64">7</string>
+
+    <string name="question7">What is Elvis Presley s middle name?</string>
+    <string name="option71">Aaron</string>
+    <string name="option72">Dan</string>
+    <string name="option73">John</string>
+    <string name="option74">Robert</string>
+
+    <string name="question8">What used to be the currency of Italy?</string>
+    <string name="option81">Lira</string>
+    <string name="option82">Euro</string>
+    <string name="option83">Dollar</string>
+    <string name="option84">Leu</string>
+
+    <string name="question9">In what year was Google launched on the web?</string>
+    <string name="option91">1998</string>
+    <string name="option92">1999</string>
+    <string name="option93">2001</string>
+    <string name="option94">1988</string>
+
+    <string name="question10">How many oscars did the Titanic movie got?</string>
+    <string name="option101">11</string>
+    <string name="option102">5</string>
+    <string name="option103">4</string>
+    <string name="option104">9</string>
+</resources>
